@@ -20,7 +20,25 @@ namespace Sreyash_Project
                 this.type = type;
             }
         }
-   
+
+
+   public class Primeminister
+    {
+        public string Name { get; private set; }
+        public int Yearselected { get; private set; }
+        public Primeminister(string name , int year)
+        {
+            this.Name = name;
+            this.Yearselected = year;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} , elected : {1}", Name, Yearselected);
+        }
+    }
+
+
     class Program
     {
         public static void Main(string[] args)
@@ -76,6 +94,7 @@ namespace Sreyash_Project
 
             Program obj = new Program();
             obj.Assg();
+            obj.Assgsecond();
 
         }
 
@@ -133,6 +152,50 @@ namespace Sreyash_Project
             for (int i = 0; i < englishdictionary1.Length; i++)
             {
                 Console.WriteLine(englishdictionary1[i]);
+            }
+        }
+
+
+        public void Assgsecond()
+        {
+            var primeministers = new Dictionary<string, Primeminister>
+            {
+                {"ABV", new Primeminister("Atal Bihari Vajpayee", 1998 ) },
+                 {"NM", new Primeminister("Narendra Modi" ,2014 ) },
+                  {"MS", new Primeminister("Manmohan Singh", 2004) }
+            };
+
+            foreach(var pm in primeministers)
+            {
+                if (pm.Value.Yearselected == 2004)
+                {
+                    Console.WriteLine("the primeminister in the year 2004 is " + pm.Value.Name);
+                }
+            }
+
+            primeministers.Add( "NDM", new Primeminister("Narendra Damodardas Modi", 2014));
+            Console.WriteLine("the dictionary after adding ");
+            foreach (var pm in primeministers)
+            {
+                Console.WriteLine(pm.Value);
+            }
+
+
+            var keylist = new List<string> { };
+            foreach (var pm in primeministers)
+            {
+                keylist.Add(pm.Key);
+            }
+            Console.WriteLine(keylist[1]);
+
+            string[] arr1 = keylist.ToArray();
+            Array.Sort(arr1);
+
+            Console.WriteLine("the sorted dictionary is :");
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                Primeminister pm = primeministers[arr1[i]];
+                Console.WriteLine(pm.ToString());
             }
         }
     }
