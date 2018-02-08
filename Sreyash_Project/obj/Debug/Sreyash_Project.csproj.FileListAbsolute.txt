@@ -1,0 +1,7 @@
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\bin\Debug\Sreyash_Project.exe.config
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\bin\Debug\Sreyash_Project.exe
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\bin\Debug\Sreyash_Project.pdb
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\obj\Debug\Sreyash_Project.csprojResolveAssemblyReference.cache
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\obj\Debug\Sreyash_Project.csproj.CoreCompileInputs.cache
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\obj\Debug\Sreyash_Project.exe
+C:\Users\sreyash\Desktop\C# Assignment\Sreyash_Project\Sreyash_Project\obj\Debug\Sreyash_Project.pdb
