@@ -1,0 +1,7 @@
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\bin\Debug\Assignmnet2.exe.config
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\bin\Debug\Assignmnet2.exe
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\bin\Debug\Assignmnet2.pdb
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\obj\Debug\Assignmnet2.csprojResolveAssemblyReference.cache
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\obj\Debug\Assignmnet2.csproj.CoreCompileInputs.cache
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\obj\Debug\Assignmnet2.exe
+C:\Users\sreyash\Desktop\C# Assignment\Assignmnet2\Assignmnet2\obj\Debug\Assignmnet2.pdb
